@@ -1,11 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 
+const SwHeader = styled.header`
+  background: tan;
+`;
+
 function Header() {
   return (
-    <header>
-      <h1 className="Header">React Wars</h1>
-    </header>
+    <SwHeader>
+      <h1 className="Header">STARWARS</h1>
+    </SwHeader>
   );
 }
 
